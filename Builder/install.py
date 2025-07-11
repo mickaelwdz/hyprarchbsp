@@ -62,11 +62,7 @@ class Builder:
         AppsManager.configure_grub()
         AppsManager.configure_sddm()
         AppsManager.configure_firefox(
-            darkreader=self.build_options.ff_darkreader,
-            ublock=self.build_options.ff_ublock,
-            twp=self.build_options.ff_twp,
-            unpaywall=self.build_options.ff_unpaywall,
-            tampermonkey=self.build_options.ff_tampermonkey,
+            ublock=self.build_options.ff_ublock,            
         )
         AppsManager.configure_code()
 
