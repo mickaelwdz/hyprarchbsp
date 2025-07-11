@@ -86,11 +86,7 @@ class Question:
         drivers = DriversManager.auto_detection()
         answers: Question.answers_type = {}
         firefox_choices = [
-            f"Dark Reader | {Fore.YELLOW}Changes light themes to dark themes on all sites",
-            f"uBlock Origin | {Fore.YELLOW}Blocks ads",
-            f"TWP | {Fore.YELLOW}Translator for text and whole pages",
-            f"Unpaywall | {Fore.YELLOW}View paid article content",
-            f"Tamper Monkey | {Fore.YELLOW}Custom Script Manager. {Fore.RED}"
+            f"uBlock Origin | {Fore.YELLOW}Blocks ads". {Fore.RED}"
                 "(Used by me to translate videos in real time)"
         ]
 
@@ -172,9 +168,5 @@ class Question:
             intel_driver="Intel" in answers["install_drivers"],
             nvidia_driver="Nvidia" in answers["install_drivers"],
             amd_driver="AMD" in answers["install_drivers"],
-            ff_darkreader="Dark Reader" in answers["ff_plugins"],
-            ff_ublock="uBlock Origin" in answers["ff_plugins"],
-            ff_twp="TWP" in answers["ff_plugins"],
-            ff_unpaywall="Unpaywall" in answers["ff_plugins"],
-            ff_tampermonkey="Tamper Monkey" in answers["ff_plugins"]
+            ff_ublock="uBlock Origin" in answers["ff_plugins"]
         )
