@@ -39,7 +39,7 @@ class AppsManager:
             )
 
     @staticmethod
-    def configure_firefox(darkreader: bool, ublock: bool, twp: bool, unpaywall: bool, tampermonkey: bool) -> None:
+    def configure_firefox(ublock: bool) -> None:
         logger.info("Start installing Firefox")
 
         try:
