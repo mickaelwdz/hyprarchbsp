@@ -86,8 +86,7 @@ class Question:
         drivers = DriversManager.auto_detection()
         answers: Question.answers_type = {}
         firefox_choices = [
-            f"uBlock Origin | {Fore.YELLOW}Blocks ads". {Fore.RED}"
-                "(Used by me to translate videos in real time)"
+            f"uBlock Origin | {Fore.YELLOW}Blocks ads"
         ]
 
         quests: List[Union[QuestionCheckbox, QuestionList]] = [
