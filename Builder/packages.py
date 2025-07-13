@@ -9,24 +9,24 @@ BASE = Packages(
 			"pipewire-jack", "pipewire-alsa", "wireplumber", "python-pyalsa", "redshift", "reflector", "sudo", "tree", "unrar",
 			"zip", "unzip", "uthash", "ark", "cmake", "clang", "gzip", "imagemagick", "7zip", "poppler", "fd", "ripgrep", "fzf", "zoxide", 
 			"make", "openssh", "shellcheck", "mpv", "loupe", "usbutils", "openvpn", "networkmanager-openvpn", "p7zip", "gparted",
-			"sshfs", "wget", "netctl", "gedit", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-fira-code",
-        	"ttf-iosevka-nerd", "playerctl", "starship", "upower", "udiskie", "zenity", "gvfs", "qt5ct", "qt6ct",
-        	"timeshift", "sddm", "qt5-graphicaleffects", "qt5-svg",  "qt5-quickcontrols2", "clipnotify", "yt-dlp", "termusic", 
+			"sshfs", "wget", "netctl", "gedit", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-fira-code", "flameshot",
+        	        "ttf-iosevka-nerd", "playerctl", "starship", "upower", "udiskie", "zenity", "gvfs", "qt5ct", "qt6ct",
+        	        "sddm", "qt5-graphicaleffects", "qt5-svg",  "qt5-quickcontrols2", "clipnotify", "yt-dlp", "termusic", 
 			"xdg-desktop-portal-gtk", "gnome-disk-utility", "evince", "neovim", "tmux", "cowsay", "polkit-gnome",
 			"rofimoji", "wmname", "pyenv", "xdg-desktop-portal", "ttf-hack-nerd", "networkmanager", "noto-fonts", 
-            "noto-fonts-cjk", "noto-fonts-emoji", "noto-fonts-extra"
+                        "noto-fonts-cjk", "noto-fonts-emoji", "noto-fonts-extra", "pokemon-colorscripts-git", "cava", "yazi"
 		],
 		bspwm_packages=["xorg", "bspwm", "sxhkd", "xorg-xinit", "xclip", "feh", "lxappearance", "polybar", "xorg-xrandr", "xsettingsd"],
 		hyprland_packages=[
-			"hyprland", "waybar", "swww", "cliphist", "wl-clipboard", "xdg-desktop-portal-hyprland", "qt5-wayland", "qt6-wayland",
+			"hyprland", "waybar", "swww", "waypaper", "cliphist", "wl-clipboard", "xdg-desktop-portal-hyprland", "qt5-wayland", "qt6-wayland",
 			"xdg-desktop-portal-wlr", "hypridle"]
 	),
 	aur=DistributionPackages(
 		common=[
-			"gnome-calculator-gtk3", "flameshot-git", "rofi-lbonn-wayland-git", "bibata-cursor-theme-bin", "tela-circle-icon-theme-dracula",
+			"gnome-calculator-gtk3", "rofi-lbonn-wayland-git", "bibata-cursor-theme-bin", "tela-circle-icon-theme-dracula",
 			"themix-theme-oomox-git", "themix-plugin-base16-git", "themix-gui-git", "themix-export-spotify-git",
-			"themix-theme-materia-git", "oomox-qt5-styleplugin-git", "oomox-qt6-styleplugin-git", "cava", "pokemon-colorscripts-git",
-			"update-grub", "yazi-git", "resvg", "ttf-meslo-nerd-font-powerlevel10k"
+			"themix-theme-materia-git", "oomox-qt5-styleplugin-git", "oomox-qt6-styleplugin-git",
+			"update-grub", "ttf-meslo-nerd-font-powerlevel10k"
 		],
 		bspwm_packages=["i3lock-color", "picom-ftlabs-git"],
 		hyprland_packages=["hyprpicker", "swaylock-effects-git", "wlr-randr-git", "hyprprop", "grimblast-git"]
